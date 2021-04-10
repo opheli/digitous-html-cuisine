@@ -1,9 +1,12 @@
-body {
-
+.background-cuizine {
+  /* background: linear-gradient(0deg, rgb(0 0 0 / 80%), rgb(0 0 0 / 80%)), url(../img/header.jpg); */
+  background-image: url(../img/header.jpg);
+  background-position: center;
+  background-size: cover;
 }
-
-
-
-.card-img-overlay {
-    vertical-align: middle;
-}
+/*.background-cuizine {
+background-image: url("img/header.jpg");
+background-size: cover;
+background-position: center;
+background-blend-mode: multiply;
+}*/

@@ -6,7 +6,7 @@
     <title>Cui'zine</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-
+    <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
 
@@ -15,21 +15,8 @@
    
 
         <header>
-        <!--image background-->
-    
-        <div class="card text-white">
-            <img src="img/header.jpg" class="card-img" alt="image repas">
-            
 
-            <div class="card-img-overlay">
-
-                    
-            <!--text img-->
-                <div class="card-img-overlay text-center mt-5">
-                    <img src="img/logo_square_white.png" class="img-fluid" alt="logo white">
-                    <h1 class="card-title align-middle">Cui'zine</h1>
-                    <p class="card-text">Le mag cuisine</p>
-                </div>
+            <div class="background-cuizine">
                 
                 <!--navbar-->                    
                 <nav class="navbar navbar-expand-lg navbar-light">
@@ -57,12 +44,23 @@
                         </div>
                     </div>
                 </nav>
-                
-                
-            </div>  
-        </div>  
-    
+            
+            
+                <div class="container-fluid">
+                    <div class="row header-cuizine-row align-items-center">
+                    <div class="col-6 offset-3 text-white text-center">
+                        <img class="my-4" src="img/logo_square_white.png" alt="Logo Cui'zine"/>
+                        <h1 class="display-1">Cui'zine</h1>
+                        <h2 class="display-5">Le mag cuisine</h2>
+                    </div>
+                    </div>
+                </div>   
+            
+            </div>
+
         </header>
+
+
 
 
      
@@ -81,25 +79,51 @@
     
             </div>
 
-            <div class="row">
+            <div class="row block1">
+                <div class="col-12 col-lg-2">
+                    <img src="img/articles/suzette/suzette-small.jpg" class="img-fluid" alt="..." style="width: 200px;">
+                </div>
 
-                <div class="col-12 offset-lg-1 col-lg-9">
-    
-                    <img src="..." class="img-fluid" alt="...">
-    
+                <div class="col-12 col-lg-7">
+                    <h3>Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h3>
+                    <p> La franchise “Chez Suzette” qui fait un carton chez les bretons ouvre son premier restaurant à Paris dans le quartier latin. Antoine de Cui’zine a testé pour vous les saveurs sucrés, salés au froment ou au sarrazin! </p>
                 </div>
     
-                <div class="offset-0 col-lg-2">
-    
-                    <div class="box red"></div>
-    
+                <div class="col-0 col-lg-2">
+                    <p>block bleu</p>
                 </div>
-    
+            </div>
+
+
+            <div class="row block2">
+                <div class="col-12 col-lg-2">
+                    <img src="img/articles/metro/metro-small.jpg" class="img-fluid" alt="..." style="width: 200px;">
+                </div>
+
+                <div class="col-12 col-lg-7">
+                    <h3>Le Métro dessert</h3>
+                    <p>Germain est ferrovipathe (ndlr: fan de train), son fils Maxime est pâtissier. ils ont décidé de réunir leur passions dans un restaurant à la déco inspiré du métro parisien. A voir absolument, mais qu’en est-il d’y aller pour manger? Clémentine entre en gare et nous donne son avis.</p>
+                </div>
+            </div>
+
+            <div class="row block3">
+                <div class="col-12 col-lg-2">
+                    <img src="img/articles/vitaly/" class="img-fluid" alt="..." style="width: 200px;">
+                </div>
+
+                <div class="col-12 col-lg-7">
+                    <h3>Vitaly, le végan italien </h3>
+                    <p>Quand on pense italien, on pense lasagne et jambon de Parme. ils l’ont fait, les saveurs de l’Italie à portée des herbivores. Cette fois, c’est moi Tony qui vais le tester pour vous.</p>
+                </div>
             </div>
 
         </section>
 
     </div>
+
+    <footer>
+        
+    </footer>
 
   </body>
 </html>
